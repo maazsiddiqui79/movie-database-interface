@@ -10,7 +10,7 @@ import "./Movie.css";
 function Movie() {
   const [loading, setLoading] = useState(true);
   const [selectGenre, set_SelectGenre] = useState("All");
-  const [movie, setMovie] = useState(movieDatabase);
+  const [movie] = useState(movieDatabase);
   const [searchTerm, set_searchTerm] = useState("");
   const [sortBy, set_sortBy] = useState("name_a_z");
 
@@ -19,13 +19,11 @@ function Movie() {
     const timer = setTimeout(() => {
       setLoading(false);
     }, 3000);
-
     return () => clearTimeout(timer);
   }, []);
 
   // all genre available
   const allGenre = [
-    "Favorite",
     "All",
     ...new Set(movie.flatMap((m) => m.genre.split(" "))),
   ];
@@ -54,18 +52,25 @@ function Movie() {
     switch (sortBy) {
       case "name_a_z":
         return a.name.localeCompare(b.name);
+
       case "name_z_a":
         return b.name.localeCompare(a.name);
+
       case "rating_l_h":
         return a.rating - b.rating;
+
       case "rating_h_l":
         return b.rating - a.rating;
+
       case "year_nf":
         return b.year - a.year;
+
       case "year_of":
         return a.year - b.year;
+
       case "genre_a_z":
         return a.genre.localeCompare(b.genre);
+
       case "genre_z_a":
         return b.genre.localeCompare(a.genre);
 
@@ -73,6 +78,7 @@ function Movie() {
         return a.name.localeCompare(b.name);
     }
   });
+
   const [fav, setFav] = useState([]);
 
   return (
@@ -80,7 +86,9 @@ function Movie() {
       <h1 className="heading" id="heading">
         My All time hit moives
       </h1>
+
       <hr />
+
       <button onClick={() => setLoading(!loading)}>
         {loading ? "Stop Skeleton Loading" : "Start Skeleton Loading"}
       </button>
@@ -89,6 +97,7 @@ function Movie() {
         <div className="">
           <Genrebtn />
           <SearchSkeleton />
+
           <div className="movie-grid">
             {movieDatabase.map((_, index) => (
               <MovieSkeleton key={index} />
@@ -102,6 +111,7 @@ function Movie() {
             <a className={`genre-btn active`} href="#fav_movie">
               Favorite Movies
             </a>
+
             {allGenre.map((e) => (
               <button
                 key={e}
@@ -111,8 +121,10 @@ function Movie() {
                 {e}
               </button>
             ))}
+
             <div className="sort-section">
               <label htmlFor="sort-select">Sort by:</label>
+
               <select
                 id="sort-select"
                 className="select"
@@ -121,43 +133,55 @@ function Movie() {
                 <option className="option" value="name_a_z">
                   Name(A-Z)
                 </option>
+
                 <option className="option" value="name_z_a">
                   Name(Z-A)
                 </option>
+
                 <option className="option" value="rating_h_l">
                   Rating(High to Low)
                 </option>
+
                 <option className="option" value="rating_l_h">
                   Rating(Low to High)
                 </option>
+
                 <option className="option" value="year_nf">
                   Year(Newest First)
                 </option>
+
                 <option className="option" value="year_of">
                   Year(Oldest First)
                 </option>
+
                 <option className="option" value="genre_a_z">
                   Genre(A-Z)
                 </option>
+
                 <option className="option" value="genre_z_a">
                   Genre(Z-A)
                 </option>
               </select>
             </div>
+
             {selectGenre && <p>Genre Selected {selectGenre}</p>}
           </div>
+
           <div className="search-section">
             <Search searchTerm={searchTerm} set_searchTerm={set_searchTerm} />
+
             {searchTerm && (
               <p>
-                Founded {filteredMovie.length} result
-                {filteredMovie.length > 1 ? "s" : ""} for "{searchTerm}"
+                Founded {soterdAndFilteredMovie.length} result
+                {soterdAndFilteredMovie.length > 1 ? "s" : ""} for "{searchTerm}
+                "
               </p>
             )}
           </div>
+
           <div className="movie-grid">
-            {filteredMovie.length > 0 ? (
-              filteredMovie.map((m) => (
+            {soterdAndFilteredMovie.length > 0 ? (
+              soterdAndFilteredMovie.map((m) => (
                 <MovieCard
                   key={m.id}
                   id={m.id}
@@ -176,11 +200,13 @@ function Movie() {
             ) : (
               <div className="empty">
                 <h3>No Movies found! for '{searchTerm}'</h3>
+
                 <p>
                   {searchTerm || selectGenre !== "All"
                     ? "Try Adjusting your search or filter criteria"
                     : "Start searching to find amazing movies!"}
                 </p>
+
                 <button
                   className="genre-btn"
                   onClick={() => {
@@ -194,10 +220,13 @@ function Movie() {
               </div>
             )}
           </div>
+
           <hr />
+
           <h1 id="fav_movie" className="heading">
             Favorite Movies
           </h1>
+
           <div className="movie-grid">
             {movie.filter((m) => fav.includes(m.id)).length > 0 ? (
               movie
@@ -219,22 +248,19 @@ function Movie() {
                   />
                 ))
             ) : (
-              
               <div className="empty">
                 <h3>No Favorite Movies</h3>
-
                 <p>Add some movies to your favorites!</p>
-                
               </div>
             )}
           </div>
         </div>
       )}
-      <div className="top">
-          <a className={`genre-btn active`} href="#heading">
-                  Top
-                </a>
 
+      <div className="top">
+        <a className={`genre-btn active`} href="#heading">
+          Top
+        </a>
       </div>
     </div>
   );
@@ -244,9 +270,14 @@ export default Movie;
 
 /*
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 COMPONENT CONDITIONAL RENDERING
+
 {<condition> && <component />}
+
 COMPONENT CONDITIONAL RENDERING
+
 {<condition> ? <valueIfTrue> : <valueIfFalse>}
+
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 */
