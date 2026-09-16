@@ -1,0 +1,107 @@
+.movie-card-skeleton {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.skeleton {
+    background: #e5e7eb;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Shimmer animation */
+
+.skeleton::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,
+            transparent,
+            rgba(255, 255, 255, 0.7),
+            transparent);
+    animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+    100% {
+        left: 150%;
+    }
+}
+
+/* Image */
+
+.movie-img-skeleton {
+    width: 100%;
+    height: 350px;
+}
+
+/* Movie title */
+
+.title-skeleton {
+    width: 70%;
+    height: 32px;
+    margin: 15px auto 10px;
+}
+
+/* Year + genre */
+
+.movie-info-skeleton {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.year-skeleton {
+    width: 60px;
+    height: 25px;
+}
+
+.genre-skeleton {
+    width: 100px;
+    height: 25px;
+}
+
+/* About */
+
+.about-skeleton {
+    width: 70px;
+    height: 18px;
+    margin-bottom: 10px;
+}
+
+.desc-skeleton {
+    width: 100%;
+    height: 14px;
+    margin-bottom: 8px;
+}
+
+.desc-small-skeleton {
+    width: 65%;
+    height: 14px;
+    margin-bottom: 15px;
+}
+
+/* Director + cast */
+
+.director-skeleton,
+.cast-skeleton {
+    width: 70%;
+    height: 14px;
+    margin: 10px 0;
+}
+
+/* Rating */
+
+.rating-skeleton {
+    width: 100%;
+    height: 32px;
+    margin-top: 15px;
+}

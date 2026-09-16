@@ -1,0 +1,488 @@
+[
+  {
+    "id": 1,
+    "name": "Game of Thrones",
+    "movieimg": "https://images.metahub.space/poster/large/tt0944947/img",
+    "year": 2011,
+    "rating": 10,
+    "genre": "Fantasy Drama",
+    "director": "David Benioff",
+    "s_desc": "Nine noble families fight for control of the Iron Throne while an ancient supernatural threat rises in the North.",
+    "cast": [
+      "Kit Harington",
+      "Emilia Clarke",
+      "Peter Dinklage",
+      "Lena Headey",
+      "Maisie Williams"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "House of the Dragon",
+    "movieimg": "https://images.metahub.space/poster/large/tt11198330/img",
+    "year": 2022,
+    "rating": 9,
+    "genre": "Fantasy Drama",
+    "director": "Miguel Sapochnik",
+    "s_desc": "The Targaryen civil war known as the Dance of the Dragons tears Westeros apart in a brutal struggle for succession.",
+    "cast": [
+      "Matt Smith",
+      "Emma D'Arcy",
+      "Olivia Cooke",
+      "Paddy Considine",
+      "Rhys Ifans"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Breaking Bad",
+    "movieimg": "https://images.metahub.space/poster/large/tt0903747/img",
+    "year": 2008,
+    "rating": 10,
+    "genre": "Crime Drama",
+    "director": "Vince Gilligan",
+    "s_desc": "A chemistry teacher turned drug manufacturer descends into the criminal underworld after being diagnosed with cancer.",
+    "cast": [
+      "Bryan Cranston",
+      "Aaron Paul",
+      "Anna Gunn",
+      "Dean Norris",
+      "Bob Odenkirk"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Daredevil",
+    "movieimg": "https://images.metahub.space/poster/large/tt3322312/img",
+    "year": 2015,
+    "rating": 9,
+    "genre": "Action Crime Drama",
+    "director": "Drew Goddard",
+    "s_desc": "A blind lawyer uses his heightened senses and fighting skills to protect Hell's Kitchen from criminals and corruption.",
+    "cast": [
+      "Charlie Cox",
+      "Vincent D'Onofrio",
+      "Deborah Ann Woll",
+      "Elden Henson",
+      "Jon Bernthal"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Avengers: Endgame",
+    "movieimg": "https://images.metahub.space/poster/large/tt4154796/img",
+    "year": 2019,
+    "rating": 9,
+    "genre": "Superhero Action",
+    "director": "Anthony Russo & Joe Russo",
+    "s_desc": "The remaining Avengers attempt to reverse the devastating consequences of Thanos' actions and restore the universe.",
+    "cast": [
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Mark Ruffalo",
+      "Chris Hemsworth",
+      "Scarlett Johansson"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Iron Man",
+    "movieimg": "https://images.metahub.space/poster/large/tt0371746/img",
+    "year": 2008,
+    "rating": 9,
+    "genre": "Superhero Action",
+    "director": "Jon Favreau",
+    "s_desc": "After being captured by terrorists, billionaire inventor Tony Stark builds an advanced armored suit and becomes Iron Man.",
+    "cast": [
+      "Robert Downey Jr.",
+      "Gwyneth Paltrow",
+      "Jeff Bridges",
+      "Terrence Howard",
+      "Jon Favreau"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "The Amazing Spider-Man",
+    "movieimg": "https://images.metahub.space/poster/large/tt0948470/img",
+    "year": 2012,
+    "rating": 9,
+    "genre": "Superhero Action",
+    "director": "Marc Webb",
+    "s_desc": "Peter Parker discovers secrets about his parents while developing his powers and becoming Spider-Man.",
+    "cast": [
+      "Andrew Garfield",
+      "Emma Stone",
+      "Rhys Ifans",
+      "Martin Sheen",
+      "Sally Field"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "The Amazing Spider-Man 2",
+    "movieimg": "https://images.metahub.space/poster/large/tt1872181/img",
+    "year": 2014,
+    "rating": 8,
+    "genre": "Superhero Action",
+    "director": "Marc Webb",
+    "s_desc": "Spider-Man faces Electro and other threats while struggling with his relationship with Gwen Stacy.",
+    "cast": [
+      "Andrew Garfield",
+      "Emma Stone",
+      "Jamie Foxx",
+      "Dane DeHaan",
+      "Paul Giamatti"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Spider-Man: Homecoming",
+    "movieimg": "https://images.metahub.space/poster/large/tt2250912/img",
+    "year": 2017,
+    "rating": 9,
+    "genre": "Superhero Action",
+    "director": "Jon Watts",
+    "s_desc": "A young Peter Parker tries to prove himself as a superhero while facing the dangerous Vulture.",
+    "cast": [
+      "Tom Holland",
+      "Michael Keaton",
+      "Zendaya",
+      "Jacob Batalon",
+      "Robert Downey Jr."
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Spider-Man: Far From Home",
+    "movieimg": "https://images.metahub.space/poster/large/tt6320628/img",
+    "year": 2019,
+    "rating": 9,
+    "genre": "Superhero Action",
+    "director": "Jon Watts",
+    "s_desc": "Peter Parker travels through Europe but is pulled into a new superhero conflict involving mysterious elemental creatures.",
+    "cast": [
+      "Tom Holland",
+      "Zendaya",
+      "Jake Gyllenhaal",
+      "Samuel L. Jackson",
+      "Jacob Batalon"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Spider-Man: No Way Home",
+    "movieimg": "https://images.metahub.space/poster/large/tt10872600/img",
+    "year": 2021,
+    "rating": 10,
+    "genre": "Superhero Action",
+    "director": "Jon Watts",
+    "s_desc": "Peter Parker's identity is exposed, leading to a dangerous spell that opens the door to villains from alternate realities.",
+    "cast": [
+      "Tom Holland",
+      "Zendaya",
+      "Benedict Cumberbatch",
+      "Willem Dafoe",
+      "Andrew Garfield"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Spider-Man: Into the Spider-Verse",
+    "movieimg": "https://images.metahub.space/poster/large/tt4633694/img",
+    "year": 2018,
+    "rating": 10,
+    "genre": "Animated Superhero",
+    "director": "Bob Persichetti, Peter Ramsey & Rodney Rothman",
+    "s_desc": "Miles Morales becomes Spider-Man and encounters other Spider-People from different dimensions.",
+    "cast": [
+      "Shameik Moore",
+      "Jake Johnson",
+      "Hailee Steinfeld",
+      "Mahershala Ali",
+      "Nicolas Cage"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Spider-Man: Across the Spider-Verse",
+    "movieimg": "https://images.metahub.space/poster/large/tt9362722/img",
+    "year": 2023,
+    "rating": 10,
+    "genre": "Animated Superhero",
+    "director": "Joaquim Dos Santos, Kemp Powers & Justin K. Thompson",
+    "s_desc": "Miles Morales travels across the multiverse and encounters a team of Spider-People protecting reality.",
+    "cast": [
+      "Shameik Moore",
+      "Hailee Steinfeld",
+      "Oscar Isaac",
+      "Jake Johnson",
+      "Daniel Kaluuya"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "The Ministry of Ungentlemanly Warfare",
+    "movieimg": "https://images.metahub.space/poster/large/tt5177120/img",
+    "year": 2024,
+    "rating": 8,
+    "genre": "Action War Comedy",
+    "director": "Guy Ritchie",
+    "s_desc": "A secret group of unconventional operatives carries out daring missions against Nazi forces during World War II.",
+    "cast": [
+      "Henry Cavill",
+      "Alan Ritchson",
+      "Eiza González",
+      "Henry Golding",
+      "Alex Pettyfer"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "The Mentalist",
+    "movieimg": "https://images.metahub.space/poster/large/tt1196946/img",
+    "year": 2008,
+    "rating": 9,
+    "genre": "Crime Drama Mystery",
+    "director": "Bruno Heller",
+    "s_desc": "A former psychic uses his exceptional observation skills to help the California Bureau of Investigation solve crimes.",
+    "cast": [
+      "Simon Baker",
+      "Robin Tunney",
+      "Tim Kang",
+      "Owain Yeoman",
+      "Amanda Righetti"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Dexter",
+    "movieimg": "https://images.metahub.space/poster/large/tt0773262/img",
+    "year": 2006,
+    "rating": 9,
+    "genre": "Crime Drama Thriller",
+    "director": "James Manos Jr.",
+    "s_desc": "A forensic blood-spatter analyst secretly lives a double life as a vigilante serial killer who targets murderers.",
+    "cast": [
+      "Michael C. Hall",
+      "Jennifer Carpenter",
+      "David Zayas",
+      "James Remar",
+      "C.S. Lee"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Kill",
+    "movieimg": "https://images.metahub.space/poster/large/tt28259207/img",
+    "year": 2024,
+    "rating": 9,
+    "genre": "Action Thriller",
+    "director": "Nikhil Nagesh Bhat",
+    "s_desc": "An army commando fights his way through a train filled with violent bandits in a relentless battle for survival.",
+    "cast": [
+      "Lakshya",
+      "Raghav Juyal",
+      "Tanya Maniktala",
+      "Abhishek Chauhan",
+      "Ashish Vidyarthi"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Gyaarah Gyaarah",
+    "movieimg": "https://images.metahub.space/poster/large/tt26915338/img",
+    "year": 2024,
+    "rating": 9,
+    "genre": "Thriller Drama",
+    "director": "Umesh Bist",
+    "s_desc": "Three police officers across different timelines use a mysterious walkie-talkie that connects them at 11:11 PM to solve cold cases and uncover the consequences of changing the past.",
+    "cast": [
+      "Raghav Juyal",
+      "Kritika Kamra",
+      "Dhairya Karwa",
+      "Gautami Kapoor",
+      "Harsh Chhaya"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Murder Mystery",
+    "movieimg": "https://images.metahub.space/poster/large/tt1618434/img",
+    "year": 2019,
+    "rating": 8,
+    "genre": "Comedy Mystery",
+    "director": "Kyle Newacheck",
+    "s_desc": "A married couple finally takes a long-awaited European vacation and becomes involved in a murder mystery aboard a billionaire's yacht.",
+    "cast": [
+      "Adam Sandler",
+      "Jennifer Aniston",
+      "Luke Evans",
+      "Terence Stamp",
+      "Gemma Arterton"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Murder Mystery 2",
+    "movieimg": "https://images.metahub.space/poster/large/tt15255288/img",
+    "year": 2023,
+    "rating": 8,
+    "genre": "Comedy Mystery",
+    "director": "Jeremy Garelick",
+    "s_desc": "Nick and Audrey Spitz become private investigators and find themselves caught up in another international mystery after a billionaire is kidnapped.",
+    "cast": [
+      "Adam Sandler",
+      "Jennifer Aniston",
+      "Mark Strong",
+      "Melanie Laurent",
+      "Enrique Arce"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Glass Onion: A Knives Out Mystery",
+    "movieimg": "https://images.metahub.space/poster/large/tt11564570/img",
+    "year": 2022,
+    "rating": 9,
+    "genre": "Mystery Comedy Thriller",
+    "director": "Rian Johnson",
+    "s_desc": "Detective Benoit Blanc travels to a private Greek island where a group of wealthy friends become involved in a mysterious murder investigation.",
+    "cast": [
+      "Daniel Craig",
+      "Edward Norton",
+      "Janelle Monáe",
+      "Kate Hudson",
+      "Dave Bautista"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Project Hail Mary",
+    "movieimg": "https://images.metahub.space/poster/large/tt12042730/img",
+    "year": 2026,
+    "rating": 9,
+    "genre": "Science Fiction Drama",
+    "director": "Phil Lord & Christopher Miller",
+    "s_desc": "A lone astronaut wakes up millions of miles from Earth with no memory and discovers he may be humanity's last hope for survival.",
+    "cast": [
+      "Ryan Gosling",
+      "Sandra Hüller",
+      "Milana Vayntrub",
+      "Lionel Boyce",
+      "Carlos Bardem"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "The Last Airbender",
+    "movieimg": "https://images.metahub.space/poster/large/tt0938283/img",
+    "year": 2010,
+    "rating": 1,
+    "genre": "Fantasy Adventure",
+    "director": "M. Night Shyamalan",
+    "s_desc": "A young hero must master the elements and stop a powerful nation from conquering the world.",
+    "cast": [
+      "Noah Ringer",
+      "Dev Patel",
+      "Nicola Peltz",
+      "Jackson Rathbone"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Race 3",
+    "movieimg": "https://images.metahub.space/poster/large/tt7430722/img",
+    "year": 2018,
+    "rating": 2,
+    "genre": "Action Thriller",
+    "director": "Remo D'Souza",
+    "s_desc": "A wealthy family becomes involved in a dangerous game of betrayal, crime and revenge.",
+    "cast": [
+      "Salman Khan",
+      "Anil Kapoor",
+      "Bobby Deol",
+      "Jacqueline Fernandez"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Radhe",
+    "movieimg": "https://images.metahub.space/poster/large/tt10888594/img",
+    "year": 2021,
+    "rating": 3,
+    "genre": "Action Crime",
+    "director": "Prabhu Deva",
+    "s_desc": "An unconventional police officer takes on a dangerous drug network operating in the city.",
+    "cast": [
+      "Salman Khan",
+      "Disha Patani",
+      "Randeep Hooda",
+      "Jackie Shroff"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Student of the Year 2",
+    "movieimg": "https://images.metahub.space/poster/large/tt7255568/img",
+    "year": 2019,
+    "rating": 4,
+    "genre": "Comedy Romance",
+    "director": "Punit Malhotra",
+    "s_desc": "A college student competes in academics, sports and romance while trying to find his place among wealthy classmates.",
+    "cast": [
+      "Tiger Shroff",
+      "Ananya Panday",
+      "Tara Sutaria",
+      "Aditya Seal"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Morbius",
+    "movieimg": "https://images.metahub.space/poster/large/tt5108870/img",
+    "year": 2022,
+    "rating": 5,
+    "genre": "Superhero Horror",
+    "director": "Daniel Espinosa",
+    "s_desc": "A scientist attempting to cure his rare blood disorder accidentally transforms himself into a dangerous living vampire.",
+    "cast": [
+      "Jared Leto",
+      "Matt Smith",
+      "Adria Arjona",
+      "Jared Harris"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Brahmāstra: Part One – Shiva",
+    "movieimg": "https://images.metahub.space/poster/large/tt6277462/img",
+    "year": 2022,
+    "rating": 6,
+    "genre": "Fantasy Action",
+    "director": "Ayan Mukerji",
+    "s_desc": "A young man discovers a mysterious connection to powerful ancient weapons and a hidden supernatural world.",
+    "cast": [
+      "Ranbir Kapoor",
+      "Alia Bhatt",
+      "Amitabh Bachchan",
+      "Mouni Roy"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "The Flash",
+    "movieimg": "https://images.metahub.space/poster/large/tt0439572/img",
+    "year": 2023,
+    "rating": 7,
+    "genre": "Superhero Action",
+    "director": "Andy Muschietti",
+    "s_desc": "The Flash travels through time to change the past and accidentally creates a dangerous alternate reality.",
+    "cast": [
+      "Ezra Miller",
+      "Michael Keaton",
+      "Sasha Calle",
+      "Ben Affleck"
+    ]
+  }
+]

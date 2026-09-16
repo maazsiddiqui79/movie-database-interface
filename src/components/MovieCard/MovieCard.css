@@ -1,0 +1,116 @@
+.movie-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.movie-card:hover {
+    transform: translateY(-6.5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.402);
+}
+
+.movie-img {
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+.movie-card h3 {
+    font-size: 32px;
+    text-align: center;
+    margin: 15px 0 10px;
+}
+
+.movie-info {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.year {
+    font-weight: bold;
+}
+
+.year,
+.genre {
+    background-color: rgba(128, 128, 128, 0.489);
+    padding: 5px 10px;
+    margin: 0px 5px;
+    border-radius: 8px;
+}
+
+.genre {
+    color: #555;
+}
+
+.movie-card hr {
+    border: none;
+    border-top: 1.5px solid #000000;
+    border-radius: 10px;
+    margin: 15px auto;
+    width: 50%;
+}
+
+.s_desc {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.about {
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.desc {
+    display: block;
+    color: #555;
+    line-height: 1.5;
+}
+
+.director-name,
+.cast-name {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 8px 0;
+}
+
+.fav {
+    text-align: center;
+    border: 0px;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 6px 12px;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+}
+.rating {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    padding: 6px 12px;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.fav:hover,.rating:hover {
+    box-shadow: 0 4px 15px rgba(43, 52, 66, 0.573);
+    transition: all 0.5s ease-in-out;
+
+}
+
+.fav{
+    cursor: pointer;
+}

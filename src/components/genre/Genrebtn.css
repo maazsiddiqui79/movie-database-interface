@@ -1,0 +1,77 @@
+.genre-skeleton-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.genre-skeleton {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 5px;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Base skeleton */
+.skeleton {
+    background-color: #e5e7eb;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Shimmer animation */
+.skeleton::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    width: 50%;
+
+    background: linear-gradient(90deg,
+            transparent,
+            rgba(255, 255, 255, 0.75),
+            transparent);
+
+    transform: translateX(-200%);
+    animation: shimmer 1.4s infinite;
+}
+
+/* Move shimmer from left to right */
+@keyframes shimmer {
+    100% {
+        transform: translateX(300%);
+    }
+}
+
+/* Genre button skeleton */
+.genre-button {
+    width: 80px;
+    height: 28px;
+}
+
+/* Different widths for a more natural skeleton */
+.genre-skeleton:nth-child(1) .genre-button {
+    width: 100px;
+}
+
+.genre-skeleton:nth-child(2) .genre-button {
+    width: 100px;
+}
+
+.genre-skeleton:nth-child(3) .genre-button {
+    width: 100px;
+}
+
+.genre-skeleton:nth-child(4) .genre-button {
+    width: 100px;
+}
+
+.genre-skeleton:nth-child(5) .genre-button {
+    width: 100px;
+}

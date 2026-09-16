@@ -1,0 +1,185 @@
+.moives {
+  width: 90%;
+  max-width: 1400px;
+  margin: 30px auto;
+  font-family: Arial, sans-serif;
+}
+
+.moives h1 {
+  text-align: center;
+  color: #222;
+  text-shadow: 0 4px 10px rgba(250, 250, 250, 0.831);
+  ;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 20px;
+}
+
+.moives>hr {
+  margin-bottom: 30px;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.main-content {
+  width: 100%;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.loading-spinner {
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-spinner p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.moives>button {
+  display: block;
+  margin: 30px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #222;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.moives>button:hover {
+  background-color: #444;
+}
+
+.genre-section {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+/* Genre buttons */
+.genre-btn {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: white;
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+/* Hover */
+.genre-btn:hover {
+  background-color: #222;
+  color: white;
+  border-color: #222;
+}
+
+/* Selected genre */
+.genre-btn.active {
+  background-color: #222;
+  color: white;
+  border-color: #222;
+}
+
+/* Selected genre text */
+.genre-section p {
+  width: 100%;
+  margin: 5px 0 0;
+
+  font-size: 14px;
+  color: #555;
+  font-weight: 600;
+}
+
+.empty {
+  text-align: center;
+  background-color: rgba(33, 33, 33, 0.283);
+  border-radius: 15px;
+  padding: 20px 0px;
+}
+
+/* Sort section */
+.sort-section {
+  margin-left: auto;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sort-section label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.select {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+  color: #333;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.select .option {
+  background-color: white;
+  color: #333;
+  font-size: 14px;
+  color: #333;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+  border: 1px black solid;
+  border-radius: 10px;
+}
+
+option:hover {
+  background-color: #222;
+  color: white;
+  border-color: #222;
+}
+
+.select:hover {
+  border-color: #222;
+}
+
+.select:focus {
+  border-color: #222;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Selected genre text */
+.genre-section>p {
+  width: 100%;
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #555;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+.top{
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
